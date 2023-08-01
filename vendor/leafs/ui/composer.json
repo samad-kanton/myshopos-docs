@@ -1,0 +1,35 @@
+{
+    "name": "leafs/ui",
+    "description": "Leaf UI is a PHP library for building user interfaces",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Darko",
+            "email": "mickdd22@gmail.com",
+            "homepage": "https://mychi.netlify.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Leaf\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*",
+        "matthiasmullie/minify": "^1.3",
+        "leafs/http": "*"
+    },
+    "require-dev": {
+        "leafs/alchemy": "^1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
